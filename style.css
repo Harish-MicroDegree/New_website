@@ -1,0 +1,36 @@
+/* CSS - Cascasding Style Sheet
+
+body { Property: value } */
+
+h1 {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#html p {
+  color: red;
+}
+
+img {
+  width: 700px;
+  height: 300px;
+}
+
+#html,
+form {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#html > ol > li {
+}

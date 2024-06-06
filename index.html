@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Harish" />
+    <meta
+      name="description"
+      content="I am learning all the content for HTML in
+    this session"
+    />
+    <title>HTML Basics</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>My Goals for the Year</h1>
+    <hr />
+    <nav>
+      <ul>
+        <li>
+          <a href="#html">Learning HTML</a>
+        </li>
+        <li>
+          <a href="#vacation">Planning a Vacation</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="html" style="font-family: Josefin Sans, sans-serif">
+      <h2>I'm ready to Learn HTML</h2>
+      <p>This is my first web page</p>
+
+      <h3>My Daily Schedule</h3>
+      <ol>
+        <li>I learn more about web development.</li>
+        <li>I plan out my schedule.</li>
+        <li>
+          I use resources from MicroDegree, w3school &
+          <abbr title="Mozzilla Developer Network">MDN</abbr>
+        </li>
+      </ol>
+    </section>
+    <hr />
+    <section id="vacation">
+      <h2>I am also Planning for a vacation</h2>
+      <p>I've been working hard and <em>really need a getaway</em></p>
+      <p>I live in <abbr title="Bengaluru">B'luru</abbr></p>
+
+      <h3>Place I would like to visit</h3>
+      <ul>
+        <li>
+          <p>I have heard good things about Leh</p>
+          <figure class="picutre">
+            <img src="leh.jpg" alt="Leh City" />
+            <figcaption>Leh Lake & Mountain View</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>I have to visit Himachal and do mountain climbing</p>
+          <figure class="picutre">
+            <img src="himachal.jpg" alt="Himachal " />
+            <figcaption>Himachal River view</figcaption>
+          </figure>
+        </li>
+      </ul>
+
+      <!-- TODO: Add more places -->
+      <h3>Place I want to Avoid</h3>
+      <p>Anywhere hot, <strong>No Way!</strong></p>
+      <dl>
+        <dt>Rajastan</dt>
+        <dd>I hear this is <strong> hot region</strong></dd>
+
+        <dt>Gurgaon</dt>
+        <dd>This is a hot place</dd>
+      </dl>
+    </section>
+    <hr />
+    <h2>Contact Me</h2>
+    <form action="https://httpbin.org/get" method="get">
+      <label for="firstN">First Name:</label>
+      <input type="text" id="firstN" name="firstName" placeholder="Laxman" />
+      <br />
+      <label for="lastN">Last Name:</label>
+      <input type="text" id="lastN" name="lastName" placeholder="Kumar" />
+      <br />
+      <input type="submit" />
+      <button type="button">Submit Me</button>
+    </form>
+    <hr />
+
+    &lt;&lt; &copy; <a href="about.html">Harish MicroDegree </a>&gt; &gt;
+
+    <a href="#"> Back to Top </a>
+  </body>
+</html>
